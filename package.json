@@ -1,0 +1,60 @@
+{
+  "name": "nodejsKaizenSoft",
+  "version": "1.0.1",
+  "description": "Servidor rest",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Direccion de Analisis criminal",
+    "email": "dac@mpf.gov.ar"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "await": "^0.2.6",
+    "body-parser": "^1.14.0",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.15.4",
+    "express-promise-router": "^2.0.0",
+    "geojson": "^0.2.1",
+    "jwt-simple": "^0.3.1",
+    "morgan": "^1.6.1",
+    "pg": "^4.5.7",
+    "pg-pool": "^2.0.3",
+    "search-google-geocode": "^0.0.13",
+    "search-osm-geocode": "^0.0.8",
+    "underscore": "^1.8.3",
+    "winston": "^2.2.0"
+  },
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.mpf.gov.ar/dac/nodejs.git"
+  },
+  "keywords": [
+    "nominatim",
+    "google",
+    "n2",
+    "warehouse",
+    "referenciales",
+    "estadistica"
+  ],
+  "maintainers": [
+    {
+      "name": "Diego Gasch",
+      "email": "dgasch@mpf.gov.ar"
+    },
+    {
+      "name": "Diego Eula",
+      "email": "deula@mpf.gov.ar"
+    }
+  ],
+  "bugs": {
+    "url": "https://gitlab.mpf.gov.ar/dac/nodejs/issues"
+  }
+}
